@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+  }  
+
+@media screen and (max-width: 1024px){
+    /* header section*/
+    .container {
+        width: 837px;
+    }
+    .navbar-right li {
+        padding-left: 38px;
+    }
+    /* header section ends*/
+    /*second section*/
+    .wrapper {
+        width: 68%;
+    }
+    /*section section ends*/
+    /*footer section*/
+    .container.last {
+        width: 953px;
+    }
+    .endfooter li {
+        padding: 0 3px;
+    }
+    .endfooter ul.last-list {
+        padding-left: 223.2px;
+    }
+    /*footer section ends*/
+}
+
+@media screen and (max-width: 992px){
+    /*header section*/
+    .container {
+        width: 800px;
+    }
+    .navbar-right li {
+        padding-left: 33.5px;
+    }
+    /*header section ends*/
+    /*first section*/
+    .first-content-wrapper {
+        margin: 0 -8px;
+    }
+    .first-content {
+        padding: 0 8px;
+    }
+    /*first section ends*/
+    /*second section*/
+    .wrapper {
+        width: 72%;
+    }
+    /*second section ends*/
+    /*third section*/
+    .second-content-wrapper {
+        padding: 0 60px;
+    }
+    .second-content {
+        padding: 8px;
+    }
+    .banner p {
+        font-size: 12px;
+    }
+    /*third section ends*/
+
+}
+
+@media screen and (max-width: 768px){
+    section {
+        padding: 80px 0;
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+    /*header section*/
+    .container{
+        width:600px;
+    }
+    .navbar-brand{
+        font-size: 26px;
+        width: 25%;
+    }
+    .navbar-right {
+        width: 75%;
+
+    }
+    ul{
+        font-size: 13px;
+    }
+    .navbar-right li {
+        padding-left: 26.5px;
+    }
+    .left {
+        width: 51%;
+    }
+    .left p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 31px;
+        margin:0;
+    }
+    p.top {
+        line-height: 14px;
+        margin-bottom: 15px;
+    }
+    .right {
+        width: 49%;
+    }
+    .right img {
+        width: 100%;
+        margin-left: 13px;
+    }
+    /*header section ends*/
+    /*first section*/
+    .cards {
+        padding: 5px 6px;
+        height: 144px;
+    }
+    /*first section ends*/
+    /*second section*/
+    .wrapper {
+        width: 95%;
+    }
+    /*second section ends*/
+    /*third section*/
+    .banner{
+        height:120px;
+    }
+    /*third section ends*/
+}
